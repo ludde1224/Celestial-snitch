@@ -1,0 +1,49 @@
+# Build and CMake files
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.user
+*.pro.user
+*.qbs.user
+*.moc
+*.obj
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.app
+*.dSYM/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.db
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.out
+*.bin
+*.test
+*.gcno
+*.gcda
+*.gcov
+# Qt Creator
+*.pro.user*
+*.qbs.user*
+*.qbs.settings
+*.creator.*
+*.autosave
+# VSCode
+.vscode/
+# Test binaries
+
+# Ignore build artifacts in Testing/, but not source files
+Testing/CMakeFiles/
+Testing/Makefile
+Testing/cmake_install.cmake
+Testing/CMakeCache.txt
